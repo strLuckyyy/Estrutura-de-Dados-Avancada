@@ -50,9 +50,25 @@ def d(n):
         print("d) complexidade: infinita...ou até a luz acabar", i) # O(1)
         i = i ** 2 # O(1) essa operação não muda o valor de i, então o loop nunca acaba
 
+
+def menu(n):
+    print("Escolha uma opção:")
+    print("a) complexidade: O(log n)")
+    print("b) complexidade: O(log n)")
+    print("c) complexidade: O(n log n)")
+    print("d) complexidade: infinita")
+    opcao = input("Digite a opção desejada: ")
+
+    if opcao == 'a': a(n)
+    elif opcao == 'b': b(n)
+    elif opcao == 'c': c(n)
+    elif opcao == 'd': d(n)
+    else: print("Opção inválida"); menu(n)
+
+    print("Deseja rodar outro algoritmo?(s/n)")
+    opcao = input()
+    if opcao == 's': menu(n)
+
 n = 100 # O(1)
 
-a(n) # O(log n)
-b(n) # O(log n)
-c(n) # O(n log n)
-d(n) # tempo infinito
+menu(n)
