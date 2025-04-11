@@ -1,4 +1,3 @@
-#pragma region Aula4
 #include "aula4.h"
 
 using namespace std;
@@ -157,7 +156,3 @@ void Aula4::Exe8()
             "b) Completa? Justifique sua resposta.\n"
             "c) Cheia? Justifique sua resposta." << endl;
 }
-
-
-
-#pragma endregion

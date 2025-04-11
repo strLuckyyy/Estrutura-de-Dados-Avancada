@@ -1,5 +1,5 @@
-#pragma region Aula3
-#define AULA3
+#ifndef AULA3_H
+#define AULA3_H
 
 #include <iostream>
 #include <string>
@@ -19,4 +19,4 @@ class Aula3
 };
 
 
-#pragma endregion
+#endif

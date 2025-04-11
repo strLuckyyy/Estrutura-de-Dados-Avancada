@@ -1,5 +1,5 @@
-#pragma region Aula4
-#define AULA4
+#ifndef AULA4_H
+#define AULA4_H
 
 #include <iostream>
 #include <string>
@@ -20,4 +20,4 @@ class Aula4
         void Exe8();
 };
 
-#pragma endregion
+#endif
