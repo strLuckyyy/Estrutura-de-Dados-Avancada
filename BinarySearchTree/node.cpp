@@ -2,13 +2,7 @@
 
 using namespace std;
 
-Node::Node(int key, string value)
-{
-    this->key = key;
-    this->value = value;
-    this->left = nullptr;
-    this->right = nullptr;
-}
+// Constructor definition removed as it is already defined inline in the header.
 
 bool Node::has_right() const
 {
@@ -17,5 +11,5 @@ bool Node::has_right() const
 
 bool Node::has_left() const
 {
-    return (left != nullptr) ? false : true;
+    return (left != nullptr) ? true : false;
 }

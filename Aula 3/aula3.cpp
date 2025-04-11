@@ -77,6 +77,6 @@ void Aula3::D(double n)
     int i = 1;
     while (i < n) {
         cout << "d) complexidade: tempo infinito" << endl;
-        i = pow(i, 2);
+        i *= i;
     }
 }
